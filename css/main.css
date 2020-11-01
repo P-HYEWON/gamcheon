@@ -1,0 +1,284 @@
+@charset "utf-8";
+
+
+/*한글*/
+#wrap{background: url(../images/common/hangle.png)no-repeat center center;}
+
+.hangle01{
+    position: absolute;
+    top: 130px;
+    right: 0;
+    animation: hangle01 1s infinite linear alternate;
+}
+
+@keyframes hangle01{
+    from{top: 110px;}
+    to{top: 130px;}
+}
+
+.hangle02{
+    position: absolute;
+    top: -60px;
+    left: 0;
+    z-index: -10;
+    animation: hangle02 1s infinite linear alternate;
+}
+
+@keyframes hangle02{
+    from{top: -40px;}
+    to{top: -10px;}
+}
+/*메인컨텐츠01*/
+#container{}
+
+.mainCon01{
+    position: relative;
+}
+.mainCon01 h2{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+.mainCon01 h2 img{}
+
+
+.con01List{
+    position: relative;
+    text-align: center;
+}
+.con01List li{
+    margin-left: 30px;
+    float: left;
+}
+.con01List li:first-child{
+    margin-left: 0;
+}
+
+.con01List h3{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+.con01List p{
+    padding-bottom: 50px;
+}
+.con01List span, .con01List p{
+    color: #969696;
+    font-size: 15px;
+}
+
+.con01Btn{
+    text-indent: -9999px;
+    width: 39px;
+    height: 76px;
+    top: 60%;
+    position: absolute;
+    display: block;
+}
+.con01Btn a{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.prevBtn{
+    left: -60px;
+    background: url(../images/common/prevBtn.png) no-repeat;
+}
+.nextBtn{
+    right: -60px;
+    background: url(../images/common/nextBtn.png) no-repeat;
+}
+
+/*호버*/
+.con01List .on ,.con01List li:hover .off{display: none;}
+.con01List li:hover .on{
+    display: block;
+}
+
+
+/*메인컨텐츠02*/
+
+.mainCon02{
+    z-index: 20;
+    color: #fff;
+    padding-top: 230px;
+    position: relative;
+}
+.mainCon02 h2{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.mainCon02 h2 img{
+}
+.con02TxtTit01 img{
+    position: absolute;
+    top: 55px;
+    left: 50px;
+}
+
+.con02Main img{}
+.con02{}
+.con02List01{
+    position: relative;
+}
+.con02TxtBox01{
+    position: absolute;
+    top: 0px;
+    left: 40;
+}
+
+.con02TxtBox01{
+    background: rgba(0,0,0,0.7);
+    width: 550px;
+    height: 380px;
+    padding: 40px;
+}
+
+.con02TxtBox01 h3{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.con02TxtBox01 h4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
+.con02TxtBox01 p{
+    padding: 5px 0;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.con02TxtBox01 span{
+    display: block;
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.con02Txt02 h4{
+    padding-top: 40px;
+}
+
+.maincon02 .quotes{
+    margin-bottom: 2px;
+}
+
+.moreBtnWhite{
+    margin-top: 20px;
+    text-align: right;
+}
+.moreBtnWhite span{
+    display: inline-block;
+    color: lightgrey;
+}
+
+.moreBtnWhite img{}
+
+.con02List02{
+    position: relative;
+}
+.con02TxtBox02{
+    position: absolute;
+}
+
+
+
+/*메인컨텐츠03*/
+
+.mainCon03{
+    margin-top: 230px;
+    height: 350px;
+    line-height: 350px;
+    background: url(../images/main/con03MainImg.png) no-repeat;
+    background-attachment: fixed;
+}
+.con03Main{}
+
+.con03Txt p{
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}
+
+
+/*메인컨텐츠04*/
+
+.mainCon04{
+    position: relative;
+    padding-top: 230px;
+}
+.mainCon04 h2{
+    text-align: center;
+}
+.mainCon04 h2 img{}
+.con04{
+    position: relative;
+}
+
+.map{
+    padding-top: 50px;
+}
+
+.con04TxtBox{
+    position: absolute;
+    top: 340px;
+    right: 0;
+    padding: 50px;
+    width: 480px;
+    height: 300px;
+    font-size: 14px;
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    box-sizing: border-box;
+}
+
+.con04TxtBox h4{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.con04TxtBox span,.con04TxtBox p{
+    margin-top: 5px;
+}
+
+.con04R02 h4{
+    padding-top: 30px;
+}
+
+.moreBtnBlack{
+    text-align: right;
+    margin-right: -10px;
+    margin-top: 15px;
+}
+.moreBtnBlack span{
+    font-size: 12px;
+}
+.moreBtnBlack img{}
+
+.moreBtnBlack{}
+.moreBtnBlack a{}
+.moreBtnBlack a span{}
+.moreBtnBlack a img{}
+
+
+.topBtn{
+    position: fixed;
+    bottom: 50px;
+    right: 250px;;
+    font-size: 13px;
+    text-align: center;
+    z-index: 1;
+}
+.topBtn p{
+    margin-bottom: 2px;
+}
+.topBtn a{}
+.topBtn a img{}
+
+
+
+
+
+
+
+
+

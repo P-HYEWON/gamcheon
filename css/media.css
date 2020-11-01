@@ -1,0 +1,122 @@
+@charset "utf-8";
+/*웹뷰*/
+.panel,.mLogo,con04TxtBoxM,.moreBtnM,.mapM,.con04TxtBox01M,.con04TxtBox02M{display: none;}
+
+
+
+/*모바일뷰*/
+@media screen and (max-width:768px){
+    /*리셋*/
+    body{min-width: auto;}
+    .inner{width: auto;}
+
+    
+    /*안보임처리*/
+    .gnb,.hangle,.hangle01,.hangle02,.sliderTxt::after,.con01ListWrap span, .con01ListWrap p,.moreBtnWhite,.con02Txt01,.con02Txt02,.slideBtn img,.hangle01,.hangle02,.mainCon02,.map,.con04TxtBox,.con04TxtBoxM,.con04TxtBox01M,.con04TxtBox02M{display: none;}
+
+    
+    /*보임처리*/
+    .panel,.foodListTitM01,.con04TxtBoxM,.con04TxtBox01M,.con04TxtBox02M,.moreBtnM,.mapM{display: block;}
+
+    /*헤더*/
+    #header{height: auto;}
+    #header h1 img{
+        width: 130px;
+        padding: 0;
+    }
+    .logo{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    #wrap{background: none;}
+    /*메인슬라이더*/
+    .mainSlider{
+        height: auto;
+        width: auto;
+        text-align: center;
+        margin: 0;
+    }
+    .sliderTxt{padding:50% 0;}
+    .sliderTxt p{}
+    .sliderTxt span{
+        display: block; 
+        font-weight: 900;}
+   
+    /*메인컨텐츠01*/
+    .mainCon01{
+        padding-left: 10px;
+        margin-bottom: 100px
+    }
+    .mainCon01 h2{padding: 15% 0;}
+    .con01ListWrap{}
+    .con01ListWrap h3{font-size: 10px;}
+    .con01ListWrap li{
+        margin-left: 5px;
+        margin-right: 5px;
+        width: 30%;
+    }
+    .con01ListWrap img{width: 100%;}
+    .con01List{}
+    .mainCon01 h2 img{width: 290px;}
+    
+    
+    /*메인컨텐츠03*/
+    .mainCon03{
+        margin-top: 0;
+        height: 200px;
+        line-height: 200px;
+    }
+    .con03Txt p{font-size: 15px;}
+    
+    
+    /*메인컨텐츠04*/
+    .mainCon04{
+        font-weight: 12px;
+        padding-top: 70px;
+    }
+    .mainCon04 h2{margin-top: 0;}
+    .mainCon04 h2 img{width: 290px;}
+    
+    .con04TxtBoxM{text-align: center;}
+    .con04TxtBoxM p{padding-bottom: 30px;}
+    .con04TxtBox01M{}
+    .con04TxtBox02M{}
+    
+    .mapM{padding: 10% 0;}
+    .moreBtnM{
+        font-size: 14px;
+        margin:0 auto;
+        width: 130px;
+        height: 30px;
+        line-height: 30px;
+        border: 1px solid #000;
+        border-radius: 25px;
+    }
+    .moreBtnM a{
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    
+    #footer{
+        font-size: 12px;
+        text-align: center;
+        height: 200px;
+        margin-top: 30px;
+    }
+    .fWrap{padding-top: 10px;}
+    .fInfo{width: 100%;}
+    .fInfo li{
+        text-align: center;
+        float: none;
+    }
+    .fInfo li::after{
+        display: none;
+    }
+    .fLogo{
+        padding: 15px 0;
+        width: 100%;
+    }
+}
+
+    

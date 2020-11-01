@@ -1,0 +1,73 @@
+@charset "utf-8";
+
+a{
+    outline: none;
+}
+.slick slide img{
+    outline: none;
+}
+.body{margin: 0;}
+.slideBtn slideNext slick-arrow{
+    position: absolute;
+}
+
+.slideBtn{}
+.slidePrev{
+    position: absolute;
+    top: 230px;
+    left: -60px;
+}
+.slideNext{
+    position: absolute;
+    top: 230px;
+    right: -60px;
+}
+
+/*메인컨텐츠02*/
+.mainCon02 .slick-slide img{
+    display: inline-block;
+}
+
+.mainCon02 .slick-dots{
+    background: none;
+}
+.mainCon02 #slick-slide-control11,#slick-slide-control10{
+    background: none;
+}
+.mainCon02 .slick-slide{
+    outline: none;
+}
+
+.slick-dots{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+    position: absolute;
+    top: 25px;
+    left: 590px;
+    
+}
+.slick-dots li{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    float: left;
+    text-indent: -9999px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.slick-dots li.slick-active{
+    background: #fff;
+}
+.slick-dots li button{
+    background: none;
+    border: 0;
+}
+
+.mainSlider .slick-slide img{
+    left: 50%;
+    margin-left: -960px;
+}
